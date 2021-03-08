@@ -1,0 +1,134 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elemnetos base*/
+body{
+     background: var(--preta);
+     font-family: 'Times New Roman', Times, serif;
+     color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    
+    
+    
+}
+/*
+header .logo{
+    
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial black', times;
+    font-size: 32px;
+    
+}
+*/
+
+header .logao {
+    width: 9%;
+}
+
+ 
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+       color: #fff;
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/fundo peakyBlinders.jpg');
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.filme-principal .descricao{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    
+}
+
+.nome-serie{
+    margin-top: 20px;
+    width: 50%;
+    height: 50%;
+
+    
+}
+
+.botao{
+    background-color: rgba(54, 53, 53, 0.5);
+    border: none;
+    color: white;
+
+    padding: 15px;
+    margin-right: 10px;
+    font-size: 18px;
+    border-radius: 8%;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.botao:hover{
+    background-color: rgb(207, 201, 201);
+    color: black;
+}
+
+.botao i{
+    margin-right: 6px;
+}
+
+.container{
+    margin-left: 40px;
+}
+
+.filme-principal .container{
+    width: 60%;
+}
+
+.box-serie{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    
+}
+
+.carrossel-series{
+    margin-top: 5px;
+
+}
+
+.em-alta{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 15px;
+    
+}
+
